@@ -1,9 +1,12 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
-  "manifest_version": 3,
-  "action": {
-    "default_popup": "hello.html",
-  }
+"manifest_version": 3,
+"name": "Benson",
+"version": "1.0",
+"description": "Benson",
+"permissions": [
+"storage"
+],
+"action": {
+"default_popup": "index.html"
+}
 }
