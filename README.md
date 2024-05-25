@@ -3,7 +3,7 @@ Gmail Catagorizer and Summerizer.
 INSTRUCTIONS FOR USE:
 
 Installing the extension:
-1. I assume we're going to publish it and it's available on chrome store???
+1. I assume we're going to publish it and it's available on chrome store??? na, user will have to download and turn on dev mode
 
 Setting up permissions and access:
 1. Steps Shantanu will write
