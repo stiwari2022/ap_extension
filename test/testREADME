@@ -1,0 +1,5 @@
+This is a test folder.
+
+The contents of this folder runs the email scanner upon the click of a button using flask, python, and javascript, and then dispalys the output in the browser.
+
+The next step is to enable it to work on an extension BUT EXTENSIONS ARE REALLY HARD TO DO FOR SOME REASON.
