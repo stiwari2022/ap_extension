@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>    
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+        <link rel="stylesheet" href="index.css">        
+        <title>Gmail Summarizer and Categorizer</title>
+    </head>
+    <body class="coloredbg center">
+        <h1 center>Gmail Summarizer and Categorizer</h1>
+        <div class="align">
+            <form action="/categorize" method="get">
+                <button type="submit" class="button">Categorize Emails</button>
+            </form>
+            <form action="/summarize" method="get">
+                <button type="submit" class="button">Summarize Emails</button>         
+            </form>             
+        </div>
+        <div class="boxes left">
+            To Categorize:
+            <ol>
+                <li>Ensure the emails you want to be sorted are specially starred.</li>
+                <li>Do this by clicking on the star option when hovering over the emails.</li>
+                <li>Click Categorize</li>
+                <li>The website display box will now display the email's sender, subject, and body. It will also display what category it has been assigned to.</li>
+                <li>If no category can be found the default value will be displayed as "none"</li>
+            </ol>
+
+
+        To Summarize:
+        <ol>
+            <li>Ensure the emails you want to be sorted are specially starred.</li>
+            <li>Do this by clicking on the star option when hovering over the email.</li>
+            <li>Click Summarize</li>
+            <li>The summarization of the emails will be displayed in the display box along with the sender, and subject. The summarization will take place instead of the body</li>
+        </ol>
+    </div>
+        <br>
+        <p class="boxes left">
+                Sender: {{ sender }}
+                <br>
+                <br>
+                Subject: {{ subject }}
+                <br>
+                <br>
+                Catagory: {{ catagory}}
+                <br>
+                <br>
+                Body: {{ message }}
+        </p>
+    </body>
+</html>
