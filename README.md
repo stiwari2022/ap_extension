@@ -18,7 +18,7 @@ To Summarize:
 1. Ensure the emails you want to be sorted are specially starred.
 2. Do this by clicking on the star option when hovering over the email.
 3. Click Summarize
-4. The summarization of the emails will be displayed in the display box along with the sender, and subject. The summarization will take place instead of the body, and the category will be labeled as "none"
+4. The summarization of the emails will be displayed in the display box along with the sender, and subject. The summarization will take place instead of the body.
 
 CODE REFERENCES:
 Explanation of code can be found in the actual code files.
