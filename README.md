@@ -3,14 +3,23 @@ Gmail Categorizer and Summerizer.
 INSTRUCTIONS FOR USE:
 
 Setting up permissions and access:
-1. Steps Shantanu will write
-2. more
-3. Go to Gmail settings and enable both variants of the star[special starring, need to decide variants]
-4. Put the email address and code in the list.
-5. my_credentials = ["your.address@gmail.com", "entire code"].
+1. Go to gmail.com
+2. Click the settings button on the top right of the page and then click See All Settings
+3. From there, you should be in a tab called General, and click on the tab, Forwarding and POP/IMAP.
+4. Near the bottom of that page, change the setting to Enable IMAP, and then click Save Changes
+5. Then go to this link, myaccount.google.com/u/2/signinoptions/twosv, and turn on two step verification
+6. Then go to, myaccount.google.com/u/2/apppasswords, and create an app password
+7. Make sure you record the app password eventhough it tells you not to
+10. Go to Gmail settings and enable both variants of the star[special starring, need to decide variants]
+11. Put the email address and code in the list
+12. Go to the code and find the variable my_credentials, and replace that whole line with, my_credentials = ["your.address@gmail.com", "app password"]
 
-How to install flask:
-1. SHANTANU WILL WRITE THIS
+How to install flask and other libraries:
+1. Open your terminal
+2. Copy this into it, pip install Flask
+3. If that doesn't work, run pip3 install Flask
+4. Run, pip install python-imap, or pip3 install python-imap
+5. Then run, pip install email, or pip3 install email
 
 To Categorize:
 1. Ensure the emails you want to be sorted are specially starred.
