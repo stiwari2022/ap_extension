@@ -43,9 +43,10 @@ To Summarize:
 CODE REFERENCES:
 Explanation of code can be found in the actual code files.
 
-How To Run Code in Terminal(launch website):
+How To Run Code in Terminal (launch website):
 1. Install Flask using pip, use Google for any troubleshooting issues
 2. Cd into the folder
 3. Run python -m flask --app apps --debug  run
-   - "apps" is the Python file name
-   - include debug for live reload for updating, otherwise it is not necessary
+   - "apps.py" is the Python file name
+   - Include debug for live reload for updating, otherwise it is not necessary
+   - You should see a part that you copy and paste into the search bar of whatever browser you use
